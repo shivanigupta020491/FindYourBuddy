@@ -1,0 +1,12 @@
+<resources>
+    <string name="app_name">Find Your Budy</string>
+    <string name="title_activity_home">MainActivity</string>
+    <string name="title_home">Home</string>
+    <string name="title_message">Message</string>
+    <string name="title_notifications">Notifications</string>
+    <string name="profile">Profile</string>
+    <string name="logout">Logout</string>
+    <string name="setting">Setting</string>
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+</resources>

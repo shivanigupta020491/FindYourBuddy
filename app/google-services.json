@@ -1,0 +1,48 @@
+{
+  "project_info": {
+    "project_number": "505658352326",
+    "firebase_url": "https://findyourbudy-9614a-default-rtdb.asia-southeast1.firebasedatabase.app",
+    "project_id": "findyourbudy-9614a",
+    "storage_bucket": "findyourbudy-9614a.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:505658352326:android:5abfd4b95dff2726d02dc7",
+        "android_client_info": {
+          "package_name": "com.testing.findyourbudy"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "505658352326-885t6et0ma3vdpmaliiboa77ifgucdre.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.testing.findyourbudy",
+            "certificate_hash": "0b1e85b3b524cab01a05cf728c2ef3bdd8400abd"
+          }
+        },
+        {
+          "client_id": "505658352326-l5e3h4d3ickl0g2faf57dc339bu6h0if.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDxmXVxnhVBKy8A2MQYzqwKwPfelFYWzoA"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "505658352326-l5e3h4d3ickl0g2faf57dc339bu6h0if.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

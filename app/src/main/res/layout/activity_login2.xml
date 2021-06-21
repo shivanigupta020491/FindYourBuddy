@@ -1,0 +1,147 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:orientation="vertical"
+    android:layout_gravity="center"
+    android:layout_height="match_parent">
+
+    <!--    0F2962FF-->
+
+    <!--    <LinearLayout-->
+    <!--        android:layout_width="match_parent"-->
+    <!--        android:layout_height="wrap_content"-->
+    <!--        android:layout_gravity="center"-->
+    <!--        m-->
+    <!--        android:gravity="center">-->
+    <!--        -->
+    <androidx.cardview.widget.CardView
+        android:id="@+id/card"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_centerVertical="true"
+        android:layout_marginLeft="30dp"
+        android:layout_marginRight="30dp"
+        android:background="#000000"
+        android:elevation="10dp"
+        app:cardCornerRadius="5dp">
+
+        <LinearLayout
+            android:layout_width="130dp"
+            android:layout_height="110dp"
+            android:layout_gravity="center_horizontal"
+            android:layout_marginTop="10dp"
+            android:background="@drawable/circle_bg">
+
+            <TextView
+                android:id="@+id/logo"
+                android:layout_width="wrap_content"
+                android:layout_height="100dp"
+                android:gravity="center"
+                android:textColor="#fff"
+                android:textStyle="bold"
+                android:textSize="16sp"
+                android:fontFamily="sans-serif-black"
+                android:text="Find Your    Buddy" />
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:id="@+id/layout1"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="20dp"
+            android:layout_marginTop="120dp"
+            android:layout_marginRight="20dp"
+            android:layout_marginBottom="5dp"
+            android:orientation="vertical">
+
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="5dp"
+                android:padding="5dp"
+                android:layout_marginTop="10dp"
+                android:text="Enter Mobile No."
+                android:textAlignment="center"
+                android:textColor="#666"
+                android:textSize="14sp"
+                android:textStyle="bold" />
+
+            <com.google.android.material.textfield.TextInputLayout
+                android:layout_width="match_parent"
+                android:layout_height="50dp"
+                android:background="@drawable/gray_border"
+                android:paddingLeft="10dp">
+
+                <com.google.android.material.textfield.TextInputEditText
+                    android:id="@+id/userNameEditText"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:background="@android:color/transparent"
+                    android:hint="Enter Mobile No."
+                    android:inputType="number"
+                    android:maxLength="10"
+                    android:digits="abcdefghijklmnopqrstuvwxyzABCDEFGHIJKLMNOPQRSTUVWXYZ1234567890@._"
+                    android:paddingBottom="7dp"
+                    android:paddingLeft="5dp"
+                    android:singleLine="true"
+                    android:textSize="16sp" />
+            </com.google.android.material.textfield.TextInputLayout>
+
+
+
+            <FrameLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+
+                <Button
+                    android:id="@+id/nextButton"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="30dp"
+                    android:layout_marginRight="30dp"
+                    android:layout_marginTop="20dp"
+                    android:layout_marginBottom="10dp"
+                    android:background="@color/colorPrimaryDark"
+                    android:text="NEXT"
+                    android:textColor="#fff"
+                    android:textSize="10sp"
+                    android:textStyle="bold"/>
+
+                <ProgressBar
+                    android:id="@+id/progreeBar"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:visibility="gone" />
+            </FrameLayout>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:padding="1dp"
+                android:layout_marginBottom="10dp"
+                android:textAlignment="center"
+                android:text="OR"
+                android:textColor="@color/colorBlack"
+                android:layout_above="@+id/card"
+                android:textSize="14sp" />
+
+        </LinearLayout>
+    </androidx.cardview.widget.CardView>
+
+    <TextView
+        android:id="@+id/errorText"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:padding="1dp"
+        android:layout_marginBottom="10dp"
+        android:textAlignment="center"
+        android:orientation="horizontal"
+        android:layout_alignParentBottom="true"
+        android:textSize="14sp" />
+
+
+</RelativeLayout>
